@@ -1,9 +1,9 @@
-import styles from '../../styles/NavBar.module.scss'
-import { Config } from '../../utils/config'
+import styles from '@/styles/NavBar.module.scss'
+import { Config } from '@/utils/config'
 import Link from 'next/link'
 
 export const NavBar = () => {
-    return (
+    return
         <div>
             <nav className={styles.nav}>
                 <h2><a className={styles.logo} href="/">Theodore</a></h2>

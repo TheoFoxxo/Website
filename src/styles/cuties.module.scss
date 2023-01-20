@@ -1,0 +1,80 @@
+@import "variables";
+
+div.box {
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  color: white;
+  font-family: $cutieFont, sans-serif;
+  border-radius: 8px;
+  float: left;
+}
+
+.boximg {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  font-family: $cutieFont, sans-serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.box h1 {
+  font-size: 40px;
+  font-weight: 100;
+  font-family: $cutieFont, sans-serif;
+}
+.box h5 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  font-family: $cutieFont, sans-serif;
+}
+.p {
+  font-size: 60px;
+  text-align: center;
+  font-family: $cutieFont, sans-serif;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.owo {
+  content: "";
+  height: 5px;
+  width: 255px;
+  background-color: #fff;
+  display: block;
+  margin: auto;
+}
+
+.owos {
+  content: "";
+  height: 50px;
+  width: 700px;
+  border-bottom: solid #fff 9px;
+  display: block;
+  margin: auto;
+}
+
+@media screen and (orientation: landscape) {
+  .box {
+    float: none;
+  }
+}
+@media screen and (orientation: portrait) {
+  .body {
+    -webkit-backface-visibility: hidden;
+  }
+  .box {
+    float: none;
+  }
+}

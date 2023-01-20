@@ -1,7 +1,7 @@
 import React from "react";
 
 import { NavBar } from "./NavBar";
-import { Config } from '../../utils/config'
+import { Config } from '@/utils/config'
 
 import Head from "next/head";
 import Script from "next/script";

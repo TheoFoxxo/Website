@@ -6,13 +6,13 @@ export const NavBar = () => {
     return (
         <div>
             <nav className={styles.nav}>
-                <h2><a className={styles.logo} href="/">Theodore</a></h2>
+                <h2><Link className={styles.logo} href="/">Theodore</Link></h2>
                 <ul>
                     <li><Link href="/">Home</Link></li>
                     <li><Link href="/cuties">Cuties</Link></li>
                     <li><Link href="/about ">About Me</Link></li>
                 </ul>
-                <button className={styles.button} type="button"> <a href={Config.email} >Contact</a></button>
+                <button className={styles.button} type="button"><Link href={Config.email} >Contact</Link></button>
             </nav>
         </div>
     )

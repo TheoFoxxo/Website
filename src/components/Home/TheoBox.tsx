@@ -1,7 +1,9 @@
+import Image from "next/image";
+
 export const TheoBox = () => {
     return (
         <div className='box'>
-            <img src='./Images/hero/1.png' alt="ImCuteRight?" className='box-img' />
+            <Image src='./Images/hero/1.png' alt="ImCuteRight?" className='box-img' />
             <h1>Theodore / Cinnamon</h1>
             <h5>Web Devloper - Discord User</h5>
             <p>I enjoy making new friends. =w=</p>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Layout } from '@/components/Layout/Layout'
 import styles from '@/styles/about.module.sass'
 
@@ -13,7 +14,7 @@ export default function About() {
                 <div className={styles.hmm}>
                 <article className={styles.article}>
                     <h1>About Me</h1>
-                    <img className={styles.img} src="/Images/hero/1.png" alt="ImCuteRight??"/>
+                    <Image className={styles.img} src="/Images/hero/1.png" alt="ImCuteRight??"/>
                     <h2 className={styles.h2}><strong className={styles.strong}>^w^</strong></h2>
                     <blockquote className={styles.blockquote}>
                         {THEO_BLOCKQUOTE}

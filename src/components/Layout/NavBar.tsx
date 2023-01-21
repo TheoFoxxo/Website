@@ -9,7 +9,6 @@ export const NavBar = () => {
                 <h2><a className={styles.logo} href="/">Theodore</a></h2>
                 <ul>
                     <li><Link href="/">Home</Link></li>
-                    {/* <li><Link onClick={() => alert("Lazy FUICK")}>Blogs</Link></li> */}
                     <li><Link href="/cuties">Cuties</Link></li>
                     <li><Link href="/about ">About Me</Link></li>
                 </ul>

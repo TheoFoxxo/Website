@@ -1,4 +1,4 @@
-import styles from '@/styles/navBar.module.scss'
+import styles from '../../styles/navBar.module.scss'
 import { Config } from '@/utils/config'
 import Link from 'next/link'
 

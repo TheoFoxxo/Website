@@ -4,8 +4,8 @@ import styles from '../../styles/cuties.module.scss'
 
 export default function Cuties() {
 
-const PAUP_IMAGE = "./images/cuties/paup.png";
-const ALEX_IMAGE = "./images/cuties/alex.png";  
+const PAUP_IMAGE = "./Images/cuties/paup.png";
+const ALEX_IMAGE = "./Images/cuties/alex.png";  
 
 const TextA = "Cuties :3";
 

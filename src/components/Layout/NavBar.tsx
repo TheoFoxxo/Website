@@ -10,6 +10,7 @@ export const NavBar = () => {
                 <ul>
                     <li><Link href="/">Home</Link></li>
                     <li><Link href="/cuties">Cuties</Link></li>
+                    <li><a onClick={() => alert("<3")}>Blogs</a></li>
                     <li><Link href="/about ">About Me</Link></li>
                 </ul>
                 <button className={styles.button} type="button"><Link href={Config.email} >Contact</Link></button>

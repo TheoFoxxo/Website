@@ -8,7 +8,7 @@ import Script from "next/script";
 
 export const Layout = () => {
 
-    const OG_TITLE = "TheodoreTheFox";
+    const OG_TITLE = "TheodoreTheFox <3";
     const OG_DESCRIPTION = "very amusing website. :D";
     const OG_FAVICON = "/favicon.ico";
 
@@ -16,7 +16,7 @@ export const Layout = () => {
         <>
             <Script src="https://use.fontawesome.com/d1341f9b7a.js"></Script>
             <Head>
-                <title>TheodoreTheFox</title>
+                <title>{OG_TITLE}</title>
                 <meta content={OG_TITLE} property="og:site_name" />
                 <meta content={OG_TITLE} property="og:title" />
                 <meta content={OG_DESCRIPTION} property="og:description" />

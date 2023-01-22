@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Layout } from '@/components/Layout/Layout'
-import styles from '@/styles/about.module.sass'
+import { Layout } from '../../components/Layout/Layout'
+import styles from '../../styles/about.module.sass'
 
 export default function About() {
 

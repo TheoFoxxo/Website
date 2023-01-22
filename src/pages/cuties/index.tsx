@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Layout } from '@/components/Layout/Layout'
-import styles from '@/styles/cuties.module.scss'
+import { Layout } from '../../components/Layout/Layout'
+import styles from '../../styles/cuties.module.scss'
 
 export default function Cuties() {
 

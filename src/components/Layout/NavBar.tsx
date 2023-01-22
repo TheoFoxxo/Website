@@ -1,5 +1,5 @@
 import styles from '../../styles/NavBar.module.scss'
-import { Config } from '@/utils/config'
+import { Config } from '../../utils/config'
 import Link from 'next/link'
 
 export const NavBar = () => {

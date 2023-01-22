@@ -1,4 +1,4 @@
-import { TheoBox } from "@/components/Home/TheoBox"
+import { TheoBox } from '../components/Home/TheoBox'
 
 export default function Home() {
   return (

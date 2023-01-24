@@ -10,3 +10,9 @@ yarn install
 
 yarn dev
 ```
+
+# Build and run
+ ```
+ yarn build
+ ```
+ 

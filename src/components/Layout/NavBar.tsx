@@ -1,10 +1,11 @@
 import { Config } from '../../utils/config'
 import Link from 'next/link'
 import styles from '../../styles/Navbar.module.scss'
+import Container from "./Container";
 
 export const NavBar = () => {
     return (
-        <div>
+        <Container>
             <nav className={styles.nav}>
                 <h2><Link className={styles.logo} href="/">Theodore</Link></h2>
                 <ul>
@@ -15,6 +16,6 @@ export const NavBar = () => {
                 </ul>
                 <button className={styles.button} type="button"><Link href={Config.email} >Contact</Link></button>
             </nav>
-        </div>
+        </Container>
     )
 }

@@ -1,12 +1,11 @@
-import React from "react";
-
+import React from "react";                                   
 import { NavBar } from "./NavBar";
 import { Config } from '../../utils/config'
 
 import Head from "next/head";
 import Script from "next/script";
 
-export const Layout = () => {
+export const Layout = ({ children }: { children: React.ReactNode }) => {
 
     const OG_TITLE = "TheodoreTheFox <3";
     const OG_DESCRIPTION = "very amusing website. :D";
@@ -30,6 +29,7 @@ export const Layout = () => {
                 <link rel="icon" href={OG_FAVICON} />
             </Head>
             <NavBar />
+            {children}
         </>
     )
 }

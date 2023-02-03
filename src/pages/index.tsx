@@ -1,12 +1,12 @@
 import { TheoBox } from '../components/Home/TheoBox'
-import { Avatar } from '../components/Home/Avatar'
-import { NavBar } from "../components/Layout/NavBar";
+import Footer from '../components/Layout/Footer'
 
 export default function Home() {
   return (
     <>
       <div>
       <TheoBox/>
+      <Footer/>
       </div>
     </>
   )

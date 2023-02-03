@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from '../../styles/about.module.sass'
+import styles from '../../styles/about.module.scss'
 import { Config } from '../../utils/config'
 
 export default function About() {

@@ -6,6 +6,8 @@ import Container from "./Container"
 export const NavBar = () => {
     return (
         <Container>
+            <>
+            <em  className={styles.em}>No Mobile Support :{"("}</em>
             <nav className={styles.nav}>
                 <h2>
                     <Link className={styles.logo} href="/">
@@ -17,10 +19,10 @@ export const NavBar = () => {
                     <li><Link href="/">Home</Link></li>
                     <li><Link href="/cuties">Cuties</Link></li>
                     <li><a onClick={() => alert("<3")}>Blogs</a></li>
-                    <li><Link href="/about ">About Me</Link></li>
                 </ul>
                 <button type="button"><Link href={Config.email} >Contact</Link></button>
             </nav>
+            </>
         </Container>
     )
 }

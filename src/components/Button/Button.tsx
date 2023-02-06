@@ -1,4 +1,4 @@
-import styles from "../../styles/button.module.scss";
+import styles from "../../styles/button.module.scss";// this is like button icon thing lol
 interface Props {
   text: string;
   link?: string;

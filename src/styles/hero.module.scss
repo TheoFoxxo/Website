@@ -1,63 +1,90 @@
+.Hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5rem;
 
-.box {
-  width: 450px; // 1050px ?
-  background: rgba(0, 0, 0, 0.4);
-  padding: 40px;
-  text-align: center;
-  margin: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  color: white;
-  border-radius: 10px;
-}
-
-.box_img {
-  border: 8px solid #fff;
-  border-radius: 5%;
-  width: 200px;
-  height: 200px;
-}
-
-.box h1 {
-  font-size: 40px;
-  text-transform: capitalize;
-  font-family: "Poppins", sans-serif;
-}
-.box h5 {
-  font-size: 20px;
-}
-
-.ul {
-  margin: 0;
-  padding: 0;
-}
-
-.box li {
-  display: inline-block;
-  margin: 6px;
-  list-style: none;
-}
-.box li a {
-  color: white;
-  text-decoration: none;
-  font-size: 60px;
-  transition: all ease-in-out 250ms;
-}
-.box li a:hover {
-  text-shadow: 0 0 10px #fff;
-  transform: scale(1.3);
-}
-
-@media screen and (orientation: portrait) {
   .box {
-    margin-top: 240px;
-    transform: scale(1.5);
-    width: 380px;
-    height: 620px;
+    width: 1250px;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5rem;
   }
-}
-@media screen and (orientation: landscape) {
-  .box {
-    height: 510px;
+  .box li {
+    display: inline-block;
+    margin: 6px;
+  }
+
+  .box h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 77px;
+    text-align: center;
+  }
+  .box h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+  }
+
+  .box li a {
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover {
+    text-shadow: 0 0 10px #fff;
+    transform: scale(1.3);
+  }
+  .Img_ {
+    height: fit-content;
+    width: 25%;
+    left: 1105px;
+    top: 290px;
+    border-radius: 40px;
+  } 
+  #Img__Blur {
+    background: rgba(245, 156, 74, 0.5);
+    filter: blur(100px);
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    .box {
+      width: 1250px;
+      padding: 70px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    .box {
+      width: 50%;
+      height: fit-content;
+      margin: auto;
+      align-items: center;
+    }
+    .Img_ {
+      width: 50%;
+      height: fit-content;
+      margin: auto;
+    }
+    img {
+      width: 100%;
+      height: 100px;
+    }
   }
 }

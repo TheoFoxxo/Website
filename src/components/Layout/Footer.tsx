@@ -4,8 +4,10 @@ import styles from '../../styles/footer.module.scss'
 
 export default function Footer() {
   return (
-    <div className={styles.foot}>
-      testing testing{">"}?
+    <div> 
+      <footer className={styles.foot}>
+      {"©"} 2022 Theodore
+      </footer>
     </div>
   );
 }

@@ -5,10 +5,8 @@ import Footer from '../components/Layout/Footer'
 export default function Home() {
   return (
     <>
-      <div>
       <Hero/>
       <Footer/>
-      </div>
     </>
   )
 }

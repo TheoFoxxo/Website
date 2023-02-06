@@ -11,6 +11,7 @@
 	padding-right: 10%;
 	font-family: "Century Gothic", sans-serif;
 	ul {
+		
 		li {
 			list-style-type: none;
 			display: inline-block;
@@ -74,8 +75,8 @@
 @media screen and (orientation: portrait) {
 	.nav {
 		ul {
+			flex-direction: row;
 			li {
-				//transform: scale(0.4);
 				display: none;
 			}
 		}
@@ -84,7 +85,11 @@
 }
 
 @media screen and (max-width: 768px) {
-
+	.nav {
+		ul {
+			flex-direction: row;
+		}
+	}
     // .nav button {
     //   display: none;
     // }

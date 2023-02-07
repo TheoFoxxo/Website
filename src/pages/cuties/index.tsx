@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Layout } from '../../components/Layout/Layout'
+import Layout from '../../components/Layout/Layout'
 import styles from '../../styles/cuties.module.scss'
 
 export default function Cuties() {
@@ -11,6 +11,7 @@ const TextA = "Cuties :3";
 
 return (
     <>
+    <Layout/>
     <div className={styles.center}>
         <p className={styles.p}><strong>{TextA}</strong></p>
         <h2 className={styles.owos}></h2>

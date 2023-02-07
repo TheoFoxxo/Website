@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from '../../styles/about.module.scss'
 import { Config } from '../../utils/config'
+import Layout from '../../components/Layout/Layout'
 
 export default function About() {
 
@@ -8,6 +9,7 @@ export default function About() {
 
     return (
         <>
+        <Layout/>
             <div className={` ${styles.wrapper}, ${styles.body}`}>
                 <div className={styles.hmm}>
                 <article className={styles.article}>

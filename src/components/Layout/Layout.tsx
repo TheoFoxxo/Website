@@ -6,7 +6,7 @@ import { Config } from '../../utils/config'
 import Head from "next/head";
 import Script from "next/script";
 
-export const Layout = ({ children }: { children: React.ReactNode }) => {
+export default function Layout({ children }: any) {
 
     const OG_TITLE = "TheodoreTheFox <3";
     const OG_DESCRIPTION = "very amusing website. :D";

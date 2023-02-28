@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div> 
       <footer className={styles.foot}>
-      {"©"} 2022 Theodore
+        &copy; 2022 Theodore
       </footer>
     </div>
   );

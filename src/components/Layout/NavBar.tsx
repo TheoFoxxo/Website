@@ -17,6 +17,7 @@ export const NavBar = () => {
 
                 <ul>
                     <li><Link href="/">Home</Link></li>
+                    <li><Link href="/about">About</Link></li>
                     <li><Link href="/cuties">Cuties</Link></li>
                     <li><a onClick={() => alert("<3")}>Blogs</a></li>
                 </ul>

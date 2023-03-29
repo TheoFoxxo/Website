@@ -11,6 +11,8 @@ body {
   height: 100vh;
   background: $mainColor;
   background-size: cover;
+  
+  cursor: $cursor, auto;
 }
 
 ::-webkit-scrollbar {

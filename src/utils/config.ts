@@ -1,6 +1,6 @@
 export const Config = {
     name: "Hi, I'm Theodore.",
-    avatar: "/Images/hero/1.png",
+    avatar: "/Images/hero/2.png",
     hobby: "Web Devloper - Discord User",
     description: "Full Stack Web Developer",
     github:"https://github.com/TheodoreTheFox",

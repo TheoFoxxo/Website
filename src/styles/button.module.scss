@@ -13,11 +13,13 @@
     width: 150px;
     border: none;
     display: inline-block;
-    cursor: pointer;
+    //cursor: pointer;
+    cursor: $cursor, auto;
     &:hover {
       transform: scale(1.3);
       font-family: "Century Gothic", sans-serif;
-      cursor: pointer;
+      //cursor: pointer;
+      cursor: $cursor, auto;
     }
     #wrapper {
     border: 1px solid blue;

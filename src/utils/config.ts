@@ -4,7 +4,7 @@ export const Config = {
     hobby: "Web Devloper - Discord User",
     description: "Full Stack Web Developer",
     github:"https://github.com/TheodoreTheFox",
-    twitter: "https://twitter.com/gaytheo_",
+    twitter: "https://links.foxdev.ml/twitter",
     email: "mailto: theodorethefoxowo@gmail.com",
     url: `http://theodorethefox.tk`
 }

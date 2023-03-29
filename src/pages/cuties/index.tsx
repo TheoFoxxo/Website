@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Layout from '../../components/Layout/Layout'
 import styles from '../../styles/cuties.module.scss'
+import  Footer from '../../components/Layout/Footer'
 
 export default function Cuties() {
 
@@ -17,14 +18,16 @@ return (
         <h2 className={styles.owos}></h2>
           <div className={styles.box} id={styles.right}>
           <img src={PAUP_IMAGE} alt="paup" className={styles.boximg} />
-          <h1><strong>Pauplogini</strong></h1>
+            <h1 className={styles.center}><strong>Pauplogini</strong></h1>
+
           </div>
   {/* ez*/}
           <div className={styles.box} id={styles.left}>
           <img src={ALEX_IMAGE} alt="Alex" className={styles.boximg} />
-          <h1><strong>Alex</strong></h1>
+          <h1 className={styles.center} ><strong>Alex</strong></h1>
           </div>
         </div>
+        <Footer/>
 </>
   )
 }

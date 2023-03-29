@@ -3,6 +3,8 @@ import styles from '../../styles/about.module.scss'
 import { Config } from '../../utils/config'
 import Layout from '../../components/Layout/Layout'
 import styless from '../../styles/cuties.module.scss'
+import Footer from '../../components/Layout/Footer'
+
 export default function About() {
 
     const THEO_BLOCKQUOTE = "Hello, my name is Theodore, and I enjoy making new friends and playing games.";
@@ -17,7 +19,7 @@ export default function About() {
             
                 <div className={styles.hmm}>
                 <article className={styles.article}>
-                    <img className={styles.img} src={Config.avatar} alt="ImCuteRight??"/>
+                    {/* <img className={styles.img} src={Config.avatar} alt="ImCuteRight??"/> */}
                     <blockquote className={styles.blockquote}>
                         {THEO_BLOCKQUOTE}
                     </blockquote>
@@ -27,6 +29,7 @@ export default function About() {
                 </article>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

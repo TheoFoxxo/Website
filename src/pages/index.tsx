@@ -1,5 +1,6 @@
 import { Hero } from '../components/Home/Hero'
 import  Footer from '../components/Layout/Footer'
+
 import { TheoBox } from '../components/Home/TheoBox'
 import Layout from "../components/Layout/Layout"
 

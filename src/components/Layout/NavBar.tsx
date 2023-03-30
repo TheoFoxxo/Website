@@ -4,6 +4,7 @@ import styles from '../../styles/Navbar.module.scss'
 import Container from "./Container"
 
 export const NavBar = () => {
+    const hmm = "mailto:"+Config.email
     return (
         <Container>
             <>
@@ -21,7 +22,7 @@ export const NavBar = () => {
                     <li><Link href="/cuties">Cuties</Link></li>
                     <li><a onClick={() => alert("<3")}>Blogs</a></li>
                 </ul>
-                <button type="button"><Link href={Config.email} >Contact</Link></button>
+                <button type="button"><Link href={hmm} >Contact</Link></button>
             </nav>
             </>
         </Container>

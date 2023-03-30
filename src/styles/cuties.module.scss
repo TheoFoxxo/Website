@@ -1,12 +1,12 @@
 @import "variables";
 
 .box {
-  width: 350px;
-  height: 290px;
+  width: 450px;
+  height: 390px;
   background: rgba(0, 0, 0, 0.4);
   padding: 40px;
   text-align: center;
-  margin: auto;
+ // margin: auto;
   margin-top: 5%;
   margin-bottom: 5%;
   color: white;
@@ -24,22 +24,27 @@
   width: 200px;
   height: 200px;
   text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  align-items: center;
   font-family: $cutieFont, sans-serif;
 }
 
 .center {
   display: block;
-  margin-left: auto;
   margin-right: auto;
   text-align: center;
+  align-items: center;
 }
 
 .box h1 {
   font-size: 40px;
-  font-weight: 100;
+  font-weight: 800;
   font-family: $cutieFont, sans-serif;
   margin-left: 30px;
   text-align: center;
+  display: block;
+  margin: auto;
 }
 .box h5 {
   text-align: center;
@@ -47,6 +52,7 @@
   letter-spacing: 3px;
   font-weight: 100;
   font-family: $cutieFont, sans-serif;
+  margin: auto;
 }
 .p {
   text-align: center;

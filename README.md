@@ -1,6 +1,6 @@
-# Web!?!?!
+# My Website
 
-## run
+## Clone and Run
 
 ```bash
 
@@ -11,8 +11,11 @@ yarn install
 yarn dev
 ```
 
-# Build and run
+# Build and Run
  ```
  yarn build
  ```
+
+# Dev
+next dev will open in port 8080
  

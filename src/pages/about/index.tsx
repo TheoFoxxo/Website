@@ -11,25 +11,23 @@ export default function About() {
     const THEO_1 = "I'm a full stack web developer who enjoys working on projects.";
 
     return (
-        <>
-        <Layout/>
+        <Layout>
             <div className={` ${styles.wrapper}, ${styles.body}`}>
-            <p className={styless.p}><strong>About</strong></p>
-            <h2 className={styless.owos}></h2>
-            
+                <p className={styless.p}><strong>About</strong></p>
+                <h2 className={styless.owos}></h2>
+
                 <div className={styles.hmm}>
-                <article className={styles.article}>
-                    {/* <img className={styles.img} src={Config.avatar} alt="ImCuteRight??"/> */}
-                    <blockquote className={styles.blockquote}>
-                        {THEO_BLOCKQUOTE}
-                    </blockquote>
-                    <blockquote className={styles.blockquote}>                      
-                        {THEO_1}
-                    </blockquote>
-                </article>
+                    <article className={styles.article}>
+                        {/* <img className={styles.img} src={Config.avatar} alt="ImCuteRight??"/> */}
+                        <blockquote className={styles.blockquote}>
+                            {THEO_BLOCKQUOTE}
+                        </blockquote>
+                        <blockquote className={styles.blockquote}>
+                            {THEO_1}
+                        </blockquote>
+                    </article>
                 </div>
             </div>
-            <Footer/>
-        </>
+        </Layout>
     )
 }

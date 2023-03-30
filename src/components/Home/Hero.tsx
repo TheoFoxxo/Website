@@ -5,7 +5,7 @@ import { Buttons } from './Buttons'
 
 
 export const Hero = () => {
-  const ihatevercel = `Hi, I'm ${Config.name}`
+  const ihatevercel = `Hi, I'm ${Config.name}.`
   return (
     <div className={styles.Hero}>
       <div className={styles.box}>

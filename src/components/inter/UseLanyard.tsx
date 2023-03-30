@@ -6,6 +6,18 @@ export default function UseLanyard() {
 
     let act = null;
     let icon;
+    let pain = "";
+
+
+       try {
+         if (!data?.activities[0].emoji?.animated === true){
+             pain = `https://cdn.discordapp.com/emojis/${data?.activities[0].emoji?.id}.png?size=28&quality=lossless`
+         } else {
+             pain = `https://cdn.discordapp.com/emojis/${data?.activities[0].emoji?.id}.gif?size=28&quality=lossless`
+         }
+       } catch(error) {
+        console.log(error)
+       }
 
     switch (data?.discord_status) {
         case "offline":
@@ -21,9 +33,12 @@ export default function UseLanyard() {
         case "idle":
             icon = `absolute w-3 h-3 bg-yellow-400 rounded`
             break;
-        default:
-            act = `${data?.activities[0].state}`
     }
+        try {
+            act = `${data?.activities[0].state}`
+        } catch {
+            pain = ``
+        }
 
     return (
         <div className="absolute rounded-md p-4 left-[40em] w-[20em] text-center border-gray bg-[#282828] border-dotted border flex mb-2000">
@@ -33,7 +48,7 @@ export default function UseLanyard() {
                     {data?.discord_user.username}{"#"}{data?.discord_user.discriminator}
                     <span className="pt-2 rounded ml-2 font-bold "><span className={icon} /></span>
                 </p>
-                {act}
+                <p> <img className='my-auto ml-3 inline' src={pain}/> • {act}</p>
             </div>
         </div>
     )

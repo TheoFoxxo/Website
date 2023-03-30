@@ -5,11 +5,12 @@ import { Buttons } from './Buttons'
 
 
 export const Hero = () => {
+  const ihatevercel = `Hi, I'm ${Config.name}`
   return (
     <div className={styles.Hero}>
       <div className={styles.box}>
         <em>
-          <h1>Hi, I'm {Config.name}.</h1>
+          <h1>{ihatevercel}</h1>
           <h2>{Config.description}</h2>
           <ul>
             <Buttons />

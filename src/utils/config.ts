@@ -3,7 +3,7 @@ export const Config = {
     avatar: "/Images/hero/2.png",
     hobby: "Web Devloper - Discord User",
     description: "Full Stack Web Developer",
-    github:"https://github.com/TheodoreTheFox",
+    github:"http://links.foxdev.ml/github",
     twitter: "https://links.foxdev.ml/twitter",
     email: "theodorethefoxowo@gmail.com",
     url: `http://foxdev.ml`

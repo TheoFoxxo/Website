@@ -4,6 +4,8 @@ import { Config } from '../../utils/config'
 import Layout from '../../components/Layout/Layout'
 import styless from '../../styles/cuties.module.scss'
 import Footer from '../../components/Layout/Footer'
+import UseLanyard from "@/components/inter/UseLanyard";
+import Space from "@/components/Layout/Space";
 
 export default function About() {
 
@@ -15,7 +17,9 @@ export default function About() {
             <div className={` ${styles.wrapper}, ${styles.body}`}>
                 <p className={styless.p}><strong>About</strong></p>
                 <h2 className={styless.owos}></h2>
-
+                <Space />
+                <UseLanyard />
+                <Space />
                 <div className={styles.hmm}>
                     <article className={styles.article}>
                         {/* <img className={styles.img} src={Config.avatar} alt="ImCuteRight??"/> */}
@@ -28,6 +32,8 @@ export default function About() {
                     </article>
                 </div>
             </div>
-        </Layout>
+
+            <Space />
+        </Layout >
     )
 }

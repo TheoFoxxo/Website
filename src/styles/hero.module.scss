@@ -61,28 +61,14 @@
     background: rgba(245, 156, 74, 0.5);
     filter: blur(100px);
   }
-  
-  // @media only screen and (max-width: 1024px) {
-  //   display: flex;
-  //   flex-direction: column;
-  //   text-align: center;
-  //   justify-content: center;
-  //   align-items: center;
-  //   .box {
-  //     width: 1250px;
-  //     padding: 70px;
-  //   }
-  // }
 
   @media only screen and (orientation: portrait) {
-   // flex-direction: column;
     .box {
       text-align: center;
       align-items: center;
       flex-direction: column-reverse;
     }
     .Img_ {
-     // width: 20%;
       width: 100%;
       height: 100px;
       height: fit-content;

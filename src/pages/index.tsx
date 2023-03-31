@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <Layout>
       <Hero />
-      <UseLanyard />
       <Space/>
     </Layout>
 

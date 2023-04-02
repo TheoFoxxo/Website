@@ -1,7 +1,8 @@
+import { Config } from '@/utils/config';
 import { useLanyardWS } from 'use-lanyard';// such a cool package
 
 export default function UseLanyard() {
-    const DISCORD_ID = '664017668629856266';
+    const DISCORD_ID = "664017668629856266";
     const data = useLanyardWS(DISCORD_ID);
 
     let act = null;
@@ -57,7 +58,7 @@ export default function UseLanyard() {
                     {data?.discord_user.username}{"#"}{data?.discord_user.discriminator}
                     <span className="pt-2 rounded ml-2 font-bold  animate-pulse"><span className={icon} /></span>
                 </p>
-                <p> <img className='my-auto ml-3 inline' src={pain} />{dot}{act}</p>
+                <p> <img className='my-auto ml-3 inline rounded' src={pain} />{dot}{act}</p>
             </div>
         </div>
         </div>

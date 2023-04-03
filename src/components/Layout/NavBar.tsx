@@ -6,8 +6,9 @@ import Container from "./Container"
 export const NavBar = () => {
     const hmm = "mailto:"+Config.email
     return (
-        <Container>
-            <div className='place-items-center'>
+        // <Container>
+        <>
+            {/* <div className='place-items-center'> */}
             <em  className={styles.em}>No Mobile Support :{"("}</em>
             <nav className={styles.nav}>
                 <h2>
@@ -24,7 +25,8 @@ export const NavBar = () => {
                 </ul>
                 <button type="button"><Link href={hmm} >Contact</Link></button>
             </nav>
-            </div>
-        </Container>
+            </>
+            /* </div> */
+       // </Container>
     )
 }

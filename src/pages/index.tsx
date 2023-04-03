@@ -1,7 +1,7 @@
 import { Hero } from '../components/Home/Hero'
 import Layout from "../components/Layout/Layout"
-import UseLanyard from "../components/inter/UseLanyard"
 import Space from '@/components/Layout/Space'
+import Container from "../components/Layout/Container"
 
 export default function Home() {
   return (

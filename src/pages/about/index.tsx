@@ -18,7 +18,7 @@ export default function About() {
                 <p className={styless.p}><strong>About</strong></p>
                 <h2 className={styless.owos}></h2>
                 <Space />
-                <UseLanyard discordid="664017668629856266"/>
+                <UseLanyard />
                 <Space />
                 <div className={styles.hmm}>
                     <article className={styles.article}>

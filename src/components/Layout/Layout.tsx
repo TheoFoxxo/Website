@@ -25,7 +25,7 @@ export default function Layout({ children }: any) {
              OG_FAVICON = "/rainbow.ico";
              console.log("It's Pride Month, and I love y'all =w=")
      } else {
-         OG_FAVICON = "/paw-256.ico";
+         OG_FAVICON = "/paw.ico";
      } 
    }
     return (
@@ -42,7 +42,6 @@ export default function Layout({ children }: any) {
                     <title>{__OG_TITLE}</title>
                     <meta content={OG_TITLE} property="og:site_name" />
                     <meta content={OG_TITLE} property="og:title" />
-                    <meta content={"Images/hero/2.png"} property="og:image"/>
                     <meta content={OG_DESCRIPTION} property="og:description" />
                     <meta content={lazyv2} property="og:url" />
 

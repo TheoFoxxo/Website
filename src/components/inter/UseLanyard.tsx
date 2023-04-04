@@ -13,6 +13,13 @@ export default function UseLanyard({ discordid }: Iprops) {
     let pain = "";
     let dot;
 
+    try {
+        act = `${data?.activities[0].state}`
+    } catch(e) {
+        pain = `https://cdn.discordapp.com/emojis/798200221045620746.webp?size=28&quality=lossless`
+        act = "I'm not doing anything."
+        console.log(e)
+    }
 
     try {
         if (!data?.activities[0].emoji?.animated === true) {
@@ -28,6 +35,7 @@ export default function UseLanyard({ discordid }: Iprops) {
         case "offline":
             icon = `rounded absolute w-3 h-3 bg-gray-400`
             act = "I'm Asleep"
+            pain = `https://cdn.discordapp.com/emojis/854817372816015392.webp?size=28&quality=lossless`
             break;
         case "dnd":
             icon = `absolute w-3 h-3 bg-red-400 rounded`
@@ -38,11 +46,6 @@ export default function UseLanyard({ discordid }: Iprops) {
         case "idle":
             icon = `absolute w-3 h-3 bg-yellow-400 rounded`
             break;
-    }
-    try {
-        act = `${data?.activities[0].state}`
-    } catch(e) {
-        pain = `https://cdn.discordapp.com/emojis/854817372816015392.webp?size=28&quality=lossless`
     }
 
     if (!data?.listening_to_spotify){

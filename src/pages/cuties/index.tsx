@@ -12,8 +12,8 @@ export default function Cuties() {
 
         {/** code here! */}
 
-        <Box paths="cuties" name="Pauplogini" image="paup" extension="png" desc="a super cute cuite" />
-        <Box paths="cuties" name="Alex" image="alex" extension="png" desc="Alex Cute" />
+        <Box paths="cuties" name="Pauplogini" image="paup" extension="png" desc="Awwww Theo more cute ~ paup" />
+        <Box paths="cuties" name="Alex" image="alex" extension="png" desc={`i love paup milk" ~ alex`} />
 
       </div>
     </Layout>

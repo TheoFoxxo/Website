@@ -11,6 +11,7 @@ export default function UseLanyard() {
     let dot;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     try {
         act = `${data?.activities[0].state}`
     } catch(e) {
@@ -18,6 +19,8 @@ export default function UseLanyard() {
         act = "I'm not doing anything."
         console.log(e)
     }
+=======
+>>>>>>> parent of 1a880d4 (i forgor)
 
 =======
 >>>>>>> parent of 4b6b3a8 (I'm gonna make everything a customization...for custmisation)
@@ -36,10 +39,13 @@ export default function UseLanyard() {
             icon = `rounded absolute w-3 h-3 bg-gray-400`
 <<<<<<< HEAD
             act = "I'm Asleep"
+<<<<<<< HEAD
             pain = `https://cdn.discordapp.com/emojis/854817372816015392.webp?size=28&quality=lossless`
 =======
             act = "I'm Asleep 💤"
 >>>>>>> parent of 4b6b3a8 (I'm gonna make everything a customization...for custmisation)
+=======
+>>>>>>> parent of 1a880d4 (i forgor)
             break;
         case "dnd":
             icon = `absolute w-3 h-3 bg-red-400 rounded`
@@ -52,6 +58,7 @@ export default function UseLanyard() {
             break;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     try {
         act = `${data?.activities[0].state}`
@@ -59,6 +66,13 @@ export default function UseLanyard() {
         pain = ``
     }
 >>>>>>> parent of 4b6b3a8 (I'm gonna make everything a customization...for custmisation)
+=======
+    try {
+        act = `${data?.activities[0].state}`
+    } catch(e) {
+        pain = `https://cdn.discordapp.com/emojis/854817372816015392.webp?size=28&quality=lossless`
+    }
+>>>>>>> parent of 1a880d4 (i forgor)
 
     if (!data?.listening_to_spotify){
         dot =" • ";

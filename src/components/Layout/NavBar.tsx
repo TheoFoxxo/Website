@@ -20,11 +20,15 @@ export const NavBar = () => {
                     <li><Link href="/">Home</Link></li>
                     <li><Link href="/about">About</Link></li>
                     <li><Link href="/cuties">Cuties</Link></li>
-                    <li><a onClick={() => alert("<3")}>Blogs</a></li>
+                    <li><a onClick={alertv2}>Blogs</a></li>
                 </ul>
                 <button type="button"><Link href={hmm} >Contact</Link></button>
             </nav>
             </div>
         </Container>
     )
+    function alertv2() {
+        console.log("He wants me to code the blog, but he should do it himself.")
+        alert("Theo is lazy and cute")
+    }
 }

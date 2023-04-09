@@ -13,6 +13,11 @@ export const Config = {
     hornyshit: true, // so pride month and stuff i don't want you to see
 }
 
+export const linkShit = {
+    thebluebird: "GayTheoo",
+    thesquid: "TheoFoxxo",
+}
+
 export const oldConfig = {
     hobby: "Web Devloper - Discord User",
 }

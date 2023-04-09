@@ -1,7 +1,7 @@
 import React from "react";
 import { NavBar } from "./NavBar";
 import { Config } from '../../utils/config'
-
+import Footer from '../Layout/Footer'
 import Head from "next/head";
 import Script from "next/script";
 import { motion } from "framer-motion";
@@ -53,6 +53,7 @@ export default function Layout({ children }: any) {
                     <link rel="icon" href={OG_FAVICON} />
                 </Head>
                 {children}
+        {/* <Footer/> */}
             </motion.div>
         </>
     )

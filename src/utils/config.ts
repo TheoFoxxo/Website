@@ -1,7 +1,7 @@
 // Fizi bullies me.
 
 export const Config = {
-    name: "Theodore",
+    name: "Theo",
     avatar: "/Images/hero/2.png",
     description: "Full Stack Web Developer",
     github:"links.foxdev.ml/github",

@@ -62,7 +62,7 @@ export default function UseLanyard({ discordid }: Iprops) {
             <img src={`https://cdn.discordapp.com/avatars/${discordid}/${data?.discord_user.avatar}.webp`} className="rounded-lg w-[100px] border-gray border-dotted border" />
             <div className="my-auto ml-3">
                 <p className="text-lg flex">
-                    {data?.discord_user.username}{"#"}{data?.discord_user.discriminator}
+                    {"@"}{data?.discord_user.username}
                     <span className="pt-2 rounded ml-2 font-bold  animate-pulse"><span className={icon} /></span>
                 </p>
                 <p> <img className='my-auto ml-3 inline rounded' src={pain} />{dot}{act}</p>

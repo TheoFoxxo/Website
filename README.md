@@ -17,5 +17,5 @@ yarn dev
  ```
 
 # Dev
-next dev will open in port 8080
+next dev will open in port 6969
  

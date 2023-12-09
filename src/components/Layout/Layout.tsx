@@ -13,21 +13,22 @@ export default function Layout({ children }: any) {
     const nextRouter = useRouter();
 
     const OG_TITLE = `${nextRouter.pathname} - TheodoreTheFox <3`;
-    const __OG_TITLE = `TheodoreTheFox <3`
+    const __OG_TITLE = `Theo <3`
     const OG_DESCRIPTION = "very amusing website. :D";
     let OG_FAVICON = "/vercel/favicon.ico";
 
     const lazyv2 = `${Config.url}${nextRouter.pathname}`;
 
-   if (Config.hornyshit) { // iima start adding things like this
-     const CurrentDate = new Date("June 1");
-     if (CurrentDate.getMonth() == 6 && CurrentDate.getDate() == 1){
-             OG_FAVICON = "/rainbow.ico";
-             console.log("It's Pride Month, and I love y'all =w=")
-     } else {
-         OG_FAVICON = "/paw.ico";
-     } 
-   }
+    if (Config.hornyshit) { // iima start adding things like this
+        let CurrentDate = new Date();
+
+        if (CurrentDate.getMonth() != 6 && CurrentDate.getDate() != 1)
+            OG_FAVICON = "/paw.ico";
+        else {
+            OG_FAVICON = "/rainbow.ico";
+            console.log("It's Pride Month, and I love y'all =w=")
+        }
+    }
     return (
         <>
             <NavBar />
@@ -53,7 +54,7 @@ export default function Layout({ children }: any) {
                     <link rel="icon" href={OG_FAVICON} />
                 </Head>
                 {children}
-        {/* <Footer/> */}
+                {/* <Footer/> */}
             </motion.div>
         </>
     )

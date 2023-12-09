@@ -4,7 +4,7 @@
 
 ```bash
 
-git clone https://github.com/TheodoreTheFox/Website
+git clone https://github.com/theofoxxo/Website
 
 yarn install
 

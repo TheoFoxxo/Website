@@ -1,5 +1,5 @@
 import { useLanyardWS } from 'use-lanyard';// such a cool package
-import Link from 'next/link'
+
 interface Iprops {
     discordid: any
 }

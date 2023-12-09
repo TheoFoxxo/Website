@@ -10,8 +10,8 @@ export default function Cuties() {
         <p className={styles.p}><strong>Cuties</strong></p>
         <h2 className={styles.owos}></h2>
 
-        <Box paths="cuties" name="Pauplogini" image="paup" extension="png" desc="Awwww Theo more cute ~ paup" />
-        <Box paths="cuties" name="Alex" image="alex" extension="png" desc={`i love paup milk ~ alex`} />
+        <Box paths="cuties" name="Pauplogini" image="paup" extension="png" desc={["Awwww Theo more cute","paup"]} />
+        <Box paths="cuties" name="Alex" image="alex" extension="png" desc={[`i love paup milk`, `alex`]} />
       </div>
     </Layout>
   )

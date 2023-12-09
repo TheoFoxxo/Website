@@ -20,6 +20,8 @@ body {
   cursor: $cursor, auto;
 }
 
+
+
 ::-webkit-scrollbar {
   width: 20px;
 }
@@ -33,9 +35,9 @@ body {
   border-radius: 20px;
   border: 6px solid transparent;
   background-clip: content-box;
-}
-::-webkit-scrollbar-thumb:hover {
-  background-color: $ScrollColorB;
+  &:hover {
+    background-color: $ScrollColorB;
+  }
 }
 
 @media (prefers-color-scheme: dark) {

@@ -8,7 +8,7 @@ export const NavBar = () => {
     return (
         <Container>
             <div className='place-items-center'>
-            <em  className={styles.em}>No Mobile Support :{"("}</em>
+            <em  className={styles.em}>No Mobile Support :{"("} It Coing soon tho :3</em>
             <nav className={styles.nav}>
                 <h2>
                     <Link className={styles.logo} href="/">

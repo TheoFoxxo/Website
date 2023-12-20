@@ -5,7 +5,6 @@ interface Iprops {
 }
 
 export default function UseLanyard({ discordid }: Iprops) {
-  //  const DISCORD_ID = "664017668629856266";
     const data = useLanyardWS(discordid);
 
     let act = null;

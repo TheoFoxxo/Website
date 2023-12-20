@@ -8,7 +8,7 @@ export const Config = {
     twitter: "twitter.com/GayTheoo",
     email: "theodorethefoxowo@gmail.com",
     discord: "https://discord.com/users/664017668629856266",
-    url: `http://foxdev.ml`, // don't add / at the end
+    url: `http://theodev.uk`, // don't add / at the end
 
     hornyshit: true, // so pride month and stuff i don't want you to see
 }

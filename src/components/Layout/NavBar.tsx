@@ -1,12 +1,10 @@
 import { Config } from '../../utils/config'
 import Link from 'next/link'
 import styles from '../../styles/Navbar.module.scss'
-import Container from "./Container"
 
 export const NavBar = () => {
     const hmm = "mailto:"+Config.email
     return (
-        <Container>
             <div className='place-items-center'>
             <em  className={styles.em}>No Mobile Support :{"("} It Coming soon tho :3</em>
             <nav className={styles.nav}>
@@ -25,7 +23,6 @@ export const NavBar = () => {
                 <button type="button"><Link href={hmm} >Contact</Link></button>
             </nav>
             </div>
-        </Container>
     )
     
     function alertv2() {

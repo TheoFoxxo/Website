@@ -19,7 +19,7 @@ export default function Layout({ children }: any) {
 
     const lazyv2 = `${Config.url}${nextRouter.pathname}`;
 
-    if (Config.hornyshit) { // iima start adding things like this
+    if (Config.sillyStuff) { // iima start adding things like this
         let CurrentDate = new Date();
 
         if (CurrentDate.getMonth() != 6 && CurrentDate.getDate() != 1)

@@ -14,13 +14,9 @@ interface Iprops {
 }
 
 export default function Box({ image, name, extension, desc, paths }: Iprops) {
-
-    /** Fucking path for the images */
-    const path = `/./Images/${paths}/${image}.${extension}`
-
     return (
         <div className={styles.box} id={styles.right}>
-            <img src={path} alt="img" className={styles.boximg} />
+            <img src={`/./Images/${paths}/${image}.${extension}`} alt="img" className={styles.boximg} />
             <h1 className={styles.center}><strong>{name}</strong></h1>
             <h3 className={styles.center}><strong>{`${desc![0]} ~ ${desc![1]}`}</strong></h3>
         </div>

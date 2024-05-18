@@ -10,7 +10,7 @@ export const Config = {
     discord: "https://discord.com/users/664017668629856266",
     url: `http://theodev.uk`, // don't add / at the end
 
-    hornyshit: true, // so pride month and stuff i don't want you to see
+    sillyStuff: true, // so pride month and stuff i don't want you to see
 }
 
 export const linkShit = {
